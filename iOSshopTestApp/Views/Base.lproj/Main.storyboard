@@ -178,7 +178,7 @@
                                                     <color key="textColor" red="0.1150881367" green="0.16741510479999999" blue="0.40821324479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="PriceDisc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfi-iA-eQ1">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="PriceDisc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfi-iA-eQ1">
                                                     <rect key="frame" x="53" y="289" width="149" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                     <color key="textColor" red="0.078902353989999993" green="0.50190278939999999" blue="0.83065495469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -219,7 +219,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="D7x-pc-YcV" secondAttribute="trailing" constant="12" id="gmy-ib-OIT"/>
                                                 <constraint firstItem="nfi-iA-eQ1" firstAttribute="top" secondItem="MTR-KB-BYE" secondAttribute="bottom" constant="8" id="nvS-m5-ioP"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="DRl-xn-7Bx" secondAttribute="trailing" constant="84" id="oG1-el-zhu"/>
-                                                <constraint firstItem="nfi-iA-eQ1" firstAttribute="leading" secondItem="Lbs-D5-1i1" secondAttribute="leadingMargin" constant="33" id="oOb-F4-Bqd"/>
+                                                <constraint firstItem="nfi-iA-eQ1" firstAttribute="leading" secondItem="Lbs-D5-1i1" secondAttribute="leadingMargin" constant="38" id="oOb-F4-Bqd"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -306,7 +306,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRi-hU-6C7">
-                                                <rect key="frame" x="343" y="22" width="16" height="22"/>
+                                                <rect key="frame" x="325" y="22" width="34" height="34"/>
                                                 <state key="normal" image="empty_fav"/>
                                                 <connections>
                                                     <action selector="onFavButtonClickDo:" destination="Tjt-92-si0" eventType="touchUpInside" id="Kcr-Lm-lVK"/>
